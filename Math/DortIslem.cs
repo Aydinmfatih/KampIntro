@@ -13,9 +13,16 @@ namespace Math
             int toplam = sayi1 + sayi2;
             Console.WriteLine("sonuç : " +toplam);
         }
-        public void Topla2(string urunAdi,string aciklama,int fiyat)
+       public void Topla2(string urunAdi,string egitim ,int sayi)
         {
-            Console.WriteLine("Ürün eklenmiştir :"+ urunAdi);
+            Console.WriteLine(urunAdi +" "+ egitim +" "+ sayi);
+        }
+        public void Topla3(int sayi1, int sayi2)
+   
+        {
+            int toplam2;
+            toplam2= sayi1 + sayi2;
+            Console.WriteLine(toplam2);
         }
     }
 }

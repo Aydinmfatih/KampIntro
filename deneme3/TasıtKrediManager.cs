@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPP3
+namespace deneme3
 {
-    internal class KonutKrediManager : IKrediManager
+    internal class TasıtKrediManager : IKrediManager
     {
         public void BiseyYap()
         {
@@ -14,9 +14,7 @@ namespace OOPP3
         }
 
         public void Hesapla()
-        { 
-            Console.WriteLine("Konutt kredisi hesaplandı");
-        }
+        {
+            Console.WriteLine("Taşıt kredisi hesaplandı");        }
     }
 }
-

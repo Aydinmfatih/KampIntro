@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPP3", "OOPP3\OOPP3.csproj", "{DF2DF27C-EF25-4D62-92FE-715C7C159E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deneme3", "deneme3\deneme3.csproj", "{2079FAF0-972A-4346-BE6F-30448F6D9ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deneme3", "deneme3\deneme3.csproj", "{2079FAF0-972A-4346-BE6F-30448F6D9ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{AC234692-96AF-4B6A-BF63-C56D3F47C476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{2079FAF0-972A-4346-BE6F-30448F6D9ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2079FAF0-972A-4346-BE6F-30448F6D9ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2079FAF0-972A-4346-BE6F-30448F6D9ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC234692-96AF-4B6A-BF63-C56D3F47C476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC234692-96AF-4B6A-BF63-C56D3F47C476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC234692-96AF-4B6A-BF63-C56D3F47C476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC234692-96AF-4B6A-BF63-C56D3F47C476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

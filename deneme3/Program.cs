@@ -10,7 +10,7 @@ IKrediManager tasitKrediManager = new TasıtKrediManager();
 BasvuruManager basvuruManager= new BasvuruManager();
 
    
-List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager};
-basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+//List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager};
+basvuruManager.KrediOnBilgilendirmesiYap(new List<IKrediManager>() { new IhtiyacKrediManager()});
 basvuruManager.BasvuruYap(konutKrediManager, new List<ILoggerService>(){ new DatabaseLoggerService(), new FileLoggerService()});
 basvuruManager.BasvuruYap(tasitKrediManager,new List<ILoggerService>() { new SmsLoggerService()});
